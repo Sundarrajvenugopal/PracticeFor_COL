@@ -1,0 +1,116 @@
+Top 20 Git Commands:
+---------------------
+1) git config -> This commands sets  the auther  name & Email address respectively to be used  with your commits
+
+git config -global user.name "[Name]"
+git confic -global user.email "[Email Address]"
+
+EX:git config -global user.name "sundar"
+   git config -global user.email "sundarrvenu@gmail.com"
+
+2) git init -> This command is used to start a new repository.
+git init [Repository Name]
+
+Ex: git init .........
+
+3) git clone -> This command is used to obtain a repository from an existing URL.
+git clone https://github.com/.......
+
+4) git add -> This command adds a file to the staging area.
+git add [file]
+EX: git add project_1
+
+git add * -> This command adds one or more to the staging area.
+EX: git add *
+
+5) git commit -> This command  "records or snapshots" the file permanently  in the version history.
+git commit -m "[Type in the commit message]"
+EX: git commit -m "First Commit"
+
+git commit -a -> This command commits any files you’ve added with the git add command and also commits any files you’ve changed since then.
+EX: git commit -a
+
+6) git diff -> This command shows the file differences which are not yet staged.
+(i) git diff
+
+git diff -staged -> This command shows the differences between the files in the staging area and the latest version present.
+
+(ii) git diff --staged
+
+(iii) git diff [First Branch] [Second Branch] -> This command shows the differences between the two branches mentioned.
+EX: git diff branch 2 branch 3
+
+7) git rest ->  This command unstages the file, but it preserves the file contents.
+(i) git reset [file]
+Ex: git reset  site.css
+
+(ii) git reset [commit]  -> This command undoes all the commits after the specified commit and preserves the changes locally.
+
+(iii) git reset –hard [commit] -> This command discards all history and goes back to the specified commit.
+
+8) git status -> This command lists all the files that have to be committed.
+ Ex : git status
+
+9) git rm -> This command deletes the file from your working directory and stages the deletion.
+git rm [file]
+
+EX: git rm example.txt
+
+10) git log -> This command is used to list the version history for the current branch.
+ 
+11) git log –follow[file] -> This command lists version history for a file, including the renaming of files also.
+
+12) git show  -> This command shows the metadata and content changes of the specified commit.
+
+git show [commit]
+
+13) git tag -> This command is used to give tags to the specified commit.
+git tag [commitID]
+
+14) (i)git branch -> This command lists all the local branches in the current repository.
+    (ii) git branch [branch name] -> This command creates a new branch.
+    (iii) git branch -d [branch name] -> This command deletes the feature branch.
+
+15) git checkout -> This command is used to switch from one branch to another.
+
+  (i) git checkout [branch name]  -> This command is used to switch from one branch to another.
+
+ (ii) git checkout -b [branch name] -> This command creates a new branch and also switches to it.
+
+16) git merge -> This command merges the specified branch’s history into the current branch.
+ 
+ git merge [branch name]
+
+17) git remote -> This command is used to connect your local repository to the remote server.
+
+git remote add [variable name] [Remote Server Link]
+
+18) git push -> This command sends the committed changes of master branch to your remote repository.
+
+  (i) git push [variable name] master
+
+  (ii) git push [variable name] [branch]  -> This command sends the branch commits to your remote repository.
+
+  (iii) git push –all [variable name]  -> This command pushes all branches to your remote repository.
+
+  (iv) git push [variable name] :[branch name]  -> This command deletes a branch on your remote repository.
+
+19) git pull -> This command fetches and merges changes on the remote server to your working directory.
+
+git pull [Repository Link]
+
+20) git stash : 
+
+   (i) git stash save  -> This command temporarily stores all the modified tracked files.
+
+   (ii) git stash pop -> This command restores the most recently stashed files.
+
+  (iii) git stash list -> This command lists all stashed changesets.
+
+  (iv) git stash drop -> This command discards the most recently stashed changeset.
+
+--------------------------------------------------------------------------------------------
+
+  
+
+
