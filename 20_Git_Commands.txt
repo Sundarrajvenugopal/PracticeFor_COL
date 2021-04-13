@@ -109,7 +109,8 @@ git pull [Repository Link]
 
   (iv) git stash drop -> This command discards the most recently stashed changeset.
   
-  Need to connect in JMeter
+  Need to connect in JMeter 
+  JMeeter implementaion for COL Project.
 
 --------------------------------------------------------------------------------------------
 
