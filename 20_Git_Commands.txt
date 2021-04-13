@@ -108,6 +108,8 @@ git pull [Repository Link]
   (iii) git stash list -> This command lists all stashed changesets.
 
   (iv) git stash drop -> This command discards the most recently stashed changeset.
+  
+  Need to connect in JMeter
 
 --------------------------------------------------------------------------------------------
 
